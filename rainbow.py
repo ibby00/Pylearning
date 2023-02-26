@@ -15,7 +15,7 @@ for i, color in enumerate(colors):
     rainbow.pendown()
     rainbow.circle(200 - i*50)
     rainbow.penup()
-    rainbow.goto(-150 + i*50, -150 + i*50)
+    rainbow.goto(-150 + i*50, -150 + i*1000)
     rainbow.pendown()
     rainbow.circle(150 - i*50)
 
