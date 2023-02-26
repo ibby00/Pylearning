@@ -11,7 +11,7 @@ rainbow.width(5)
 for i, color in enumerate(colors):
     rainbow.color(color)
     rainbow.penup()
-    rainbow.goto(-200 + i*50, -200 + i*50)
+    rainbow.goto(-200 + i*50, -200 + i*1000)
     rainbow.pendown()
     rainbow.circle(200 - i*50)
     rainbow.penup()
